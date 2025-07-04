@@ -11,7 +11,7 @@ const page = () => {
       <Navbar />
       <div className={styles.wrapper}>
         <div className={styles.right}>
-          <img src="/army.png" alt="Army Officer" />
+          <img src="/army.jpg" alt="Army Officer" />
         </div>
         <div className={styles.left}>
           <h1>BORN TO AN<br />OLIVE GREEN</h1>
