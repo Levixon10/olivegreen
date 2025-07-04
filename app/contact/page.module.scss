@@ -1,0 +1,50 @@
+:root {
+  --main-bg: #f0ebdf;
+  --outer-bg: #4B5320;
+  --text-dark: #2e3421;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--outer-bg); // olive outer
+  font-family: 'Helvetica', sans-serif;
+}
+
+.contactWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  min-height: calc(100vh - 80px); // adjust if your navbar is shorter
+  background-color: var(--outer-bg);
+}
+
+.contactBox {
+  background-color: var(--main-bg);
+  padding: 3rem;
+  border-radius: 1rem;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.125rem;
+  color: #444;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.emailLine {
+  font-size: 1.1rem;
+  color: var(--text-dark);
+}
