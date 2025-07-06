@@ -17,7 +17,7 @@ const page = () => {
           <h1>BORN TO AN<br />OLIVE GREEN</h1>
           <p>A Blog by Ananya Singh</p>
           <p>
-            Born to an Olive Green is a space for the stories that don’t always make noise — the quiet goodbyes, borrowed cities, unfinished maps, and moments that unfold between arrivals and departures. I’ve grown up chasing unfamiliar streets, carrying memories across borders, and learning that belonging isn’t pinned to a place. These are fragments of that life — stitched together in words.
+            Born to an Olive Green is a space for quiet stories — the goodbyes, borrowed cities, and life between arrivals and departures. I’ve grown up crossing borders, chasing new streets, and learning that belonging isn’t tied to one place. These are fragments of that journey — stitched in words.
           </p>
         </div>
       </div>
