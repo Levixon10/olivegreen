@@ -1,0 +1,28 @@
+.card {
+  border: 1px solid #e5e7eb;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  background-color: #f9fafb;
+  transition: box-shadow 0.3s ease;
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.card a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.butt{
+    text-decoration: none;
+    color:black;
+}

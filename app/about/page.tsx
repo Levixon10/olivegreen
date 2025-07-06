@@ -38,7 +38,7 @@ const AboutPage = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2, delay: 0.4 }}
         >
-          <h1 className={styles.heading}>About the writer</h1>
+          <h1 className={styles.heading}>About the Writer</h1>
           <p className={styles.subtext}>
             Hey!!<br /><br />
             My name is Ananya Singh. I’ve spent my life somewhere between cities, classrooms, and cantonments — always arriving, always leaving, always carrying fragments of places most people only know from maps or headlines.<br />
