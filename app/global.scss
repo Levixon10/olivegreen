@@ -1,18 +1,16 @@
 :root {
   --main-bg: #f0ebdf;
-  --outer-bg: #a4a486;
+  --outer-bg: #4B5320;
   --text-dark: #2e3421;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 html,
 body {
+  margin: 0;
+  padding: 0;
   background-color: var(--outer-bg);
-  font-family: 'Helvetica', sans-serif;
+  color: white;
+  font-family: 'Lora', serif;
+  height: 100%;
   overflow-x: hidden;
 }

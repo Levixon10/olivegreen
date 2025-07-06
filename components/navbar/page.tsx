@@ -12,7 +12,9 @@ const Navbar = () => {
 
   return (
     <div className={styles.navbar}>
-      <div className={styles.brand}></div>
+      <div className={styles.left}>
+        <div className={styles.brand}>Born to an Olive Green</div>
+      </div>
 
       <button className={styles.menuToggle} onClick={toggleMenu} aria-label="Toggle menu">
         {isOpen ? <X size={24} /> : <Menu size={24} />}

@@ -1,15 +1,4 @@
-:root {
-  --main-bg: #f0ebdf;
-  --outer-bg: #4B5320;
-  --text-dark: #2e3421;
-}
-html,
-body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--outer-bg); // olive outer
- font-family: 'Lora', serif;
-}
+
 
 .contactWrapper {
   display: flex;

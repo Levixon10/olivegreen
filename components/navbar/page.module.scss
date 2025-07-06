@@ -3,19 +3,27 @@
   top: 0;
   z-index: 1000;
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem; 
   background-color: var(--main-bg);
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   font-family: 'Lora', serif;
+  max-width: 1200px;
+  margin: 0 auto;     
+}
+
+
+.left {
+  flex: 1;
 }
 
 .brand {
   font-weight: bold;
   font-size: 1.3rem;
   color: var(--text-dark);
+  white-space: nowrap;
 }
 
 .menuToggle {
