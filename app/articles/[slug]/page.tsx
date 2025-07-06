@@ -1,9 +1,18 @@
+// app/articles/[slug]/page.tsx
 import { articles } from '@/data/articles';
 import styles from './ArticleDetail.module.scss';
+import { notFound } from 'next/navigation';
 
-export default function Article({ params }: { params: { slug: string } }) {
+
+type ArticlePageProps = {
+  params: {
+    slug: string;
+  };
+};
+
+export default async function Article({ params }: ArticlePageProps) {
   const article = articles.find((a) => a.slug === params.slug);
-  if (!article) return <div className={styles.wrapper}>Article not found</div>;
+  if (!article) return notFound();
 
   return (
     <div className={styles.wrapper}>
