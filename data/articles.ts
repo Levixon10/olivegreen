@@ -3,7 +3,7 @@
 export const articles = [
   {
     slug: "born-to-the-olive-greens",
-    title: "Born to the Olive Greens",
+    title: "Born to the Olive Green",
     content: `First things first, I’m a brat. No! That doesn’t mean that I am spoiled or an ill-mannered child!  
 I’m an ARMY BRAT — born, raised, and transferred.
 

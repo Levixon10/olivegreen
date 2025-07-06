@@ -14,10 +14,10 @@ const page = () => {
           <img src="/army.jpg" alt="Army Officer" />
         </div>
         <div className={styles.left}>
-          <h1>BORN TO AN<br />OLIVE GREEN</h1>
+          <h1>BORN TO THE<br />OLIVE GREEN</h1>
           <p>A Blog by Ananya Singh</p>
           <p>
-            Born to an Olive Green is a space for quiet stories — the goodbyes, borrowed cities, and life between arrivals and departures. I’ve grown up crossing borders, chasing new streets, and learning that belonging isn’t tied to one place. These are fragments of that journey — stitched in words.
+            Born to an Olive Green is a space for quiet stories — the goodbyes, borrowed cities, and life between arrivals and departures. I’ve grown up changing cities, chasing new streets, and learning that belonging isn’t tied to one place. These are fragments of that journey — stitched in words.
           </p>
         </div>
       </div>
